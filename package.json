@@ -1,6 +1,6 @@
 {
-  "_from": "gatsby-source-wordpress@2.0.431",
-  "_id": "gatsby-source-wordpress@2.0.431",
+  "_from": "gatsby-source-wordpress@2.0.432",
+  "_id": "gatsby-source-wordpress@2.0.432",
   "_inBundle": false,
   "_integrity": "sha512-eazP++ApdAX4PF0hNicMsZAmrEhX/0jHod01sTki9YvbPy03vSCwRv9t1WRNKkYwbp0RqLpT4KXgrl5VMwtJxA==",
   "_location": "/gatsby-source-wordpress",
@@ -8,20 +8,20 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "gatsby-source-wordpress@2.0.431",
+    "raw": "gatsby-source-wordpress@2.0.432",
     "name": "gatsby-source-wordpress",
     "escapedName": "gatsby-source-wordpress",
-    "rawSpec": "2.0.431",
+    "rawSpec": "2.0.432",
     "saveSpec": null,
-    "fetchSpec": "2.0.431"
+    "fetchSpec": "2.0.432"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/gatsby-source-wordpress/-/gatsby-source-wordpress-2.0.431.tgz",
+  "_resolved": "https://registry.npmjs.org/gatsby-source-wordpress/-/gatsby-source-wordpress-2.0.432.tgz",
   "_shasum": "bca098f949f98ae5ff510454964069fa91d459ca",
-  "_spec": "gatsby-source-wordpress@2.0.431",
+  "_spec": "gatsby-source-wordpress@2.0.432",
   "_where": "/Users/jonathanlovera/Documents/Science/Projects/24Digital/ic-2018-frontend",
   "author": {
     "name": "Sebastien Fichot",
@@ -57,5 +57,5 @@
     "prepublish": "cross-env NODE_ENV=production npm run build",
     "watch": "babel -w src --out-dir . --ignore __tests__"
   },
-  "version": "2.0.431"
+  "version": "2.0.432"
 }

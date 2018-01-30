@@ -454,6 +454,11 @@ var getPages = function () {
                       per_page: _perPage,
                       page: page
                   };
+              if(url.indexOf('/v3/media') >= 0)
+                  stringifyOpts = {
+                    per_page: 0,
+                    page: page
+                };
 
               var o = {
                 method: `get`,
