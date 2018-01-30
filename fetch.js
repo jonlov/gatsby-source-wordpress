@@ -445,13 +445,12 @@ var getPages = function () {
             result = [];
 
             getOptions = function getOptions(page) {
-                if(url.indexOf('/v2/') >= 0)
-                    var stringifyOpts = {
-                        per_page: 100,
-                      page: page
-                  };
-                else
-                    var stringifyOpts = {
+                var stringifyOpts = {
+                    per_page: 100,
+                    page: page
+                };
+                if(url.indexOf('/v3/product') >= 0 || url.indexOf('/v3/hotspot') >= 0)
+                    stringifyOpts = {
                       per_page: _perPage,
                       page: page
                   };
